@@ -1,0 +1,91 @@
+Exporter version: 2.80.1, Blender version: 2.92.0
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  C:\Users\nabil\OneDrive\Bureau\NEWGAME\docs\hello-world\texPack\mod1\models\evilbot\
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of mesh:  head
+		processing begun of material:  m_1
+			processing texture alien
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		Custom split normals with tangents being used
+		num positions      :  218
+		num normals        :  218
+		num tangents       :  872
+		num uvs            :  436
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  84
+	processing begun of mesh:  right_sleve
+		processing begun of material:  m_1
+		registered as also a user of material:  m_1
+		Custom split normals with tangents being used
+		num positions      :  62
+		num normals        :  62
+		num tangents       :  248
+		num uvs            :  124
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  left_sleve
+		processing begun of material:  m_1
+		registered as also a user of material:  m_1
+		Custom split normals with tangents being used
+		num positions      :  62
+		num normals        :  62
+		num tangents       :  248
+		num uvs            :  124
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  left_pants
+		processing begun of material:  m_1
+		registered as also a user of material:  m_1
+		Custom split normals with tangents being used
+		num positions      :  62
+		num normals        :  62
+		num tangents       :  248
+		num uvs            :  124
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  right_pants
+		processing begun of material:  m_1
+		registered as also a user of material:  m_1
+		Custom split normals with tangents being used
+		num positions      :  62
+		num normals        :  62
+		num tangents       :  248
+		num uvs            :  124
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  body
+		processing begun of material:  m_1
+		registered as also a user of material:  m_1
+		Custom split normals with tangents being used
+		num positions      :  62
+		num normals        :  62
+		num tangents       :  248
+		num uvs            :  124
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+========= Writing of JSON file started =========
+	writing mesh:  head
+	writing mesh:  right_sleve
+	writing mesh:  left_sleve
+	writing mesh:  left_pants
+	writing mesh:  right_pants
+	writing mesh:  body
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.0411 secs

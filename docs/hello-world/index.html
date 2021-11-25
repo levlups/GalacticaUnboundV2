@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+<link rel="shortcut icon" href="galamini.png">
+  <title>bokkusu</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+ 
+
+
+<!--<script>
+var fs = require('fs');
+
+
+function readJson(file){
+
+var obj = JSON.parse(fs.readFileSync(file, 'utf8'));
+return obj;
+}
+
+
+function writeJson(file,target ){
+
+fs.writeFile(file, JSON.stringify(target), (err) => {
+  if (err)
+    console.log(err);
+  else {
+    console.log("File written successfully\n");
+    console.log("The written has the following contents:");
+   // console.log(JSON.parse(fs.readFileSync(file, "utf8")));
+  }
+});
+}
+
+
+function closeGame(){
+nw.App.closeAllWindows()
+
+}
+
+</script>-->
+  <style type="text/css">
+    body {
+      background-color: white;
+      margin: 0px;
+      overflow: hidden;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+	  z-index: 98;
+	  
+    }
+	
+	@font-face {
+   font-family: myFirstFont;
+   src: url(mcfont.ttf);
+}
+
+* {
+   font-family: myFirstFont;
+}
+
+
+    #reticle {
+      position: fixed;
+      top: 75%;
+      left: 50%;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      margin: -10px 0 0 -10px;
+      z-index: 100;
+      color: white;
+	  background-color: clear;
+	  background-image:url("texPack/gui/heart.png");
+      text-shadow: 1px 1px 0px black;
+      text-align: center;
+    }
+	
+	#canva{
+	  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  imageSmoothingEnabled :false ;
+	
+	}
+
+	 
+  </style>
+</head>
+
+<body>
+ <!--<div id="reticle">10</div>-->
+  <canvas id="canva" style="pointer-events: none"  width="0" height="0"></canvas>
+
+ 
+
+
+<script type='text/javascript' src="./rtc/socket.js"></script>
+<script type='text/javascript' src="rtc/sodata.js"></script>
+<script type="text/javascript" src="babylon.js"></script>
+  <script type="text/javascript" src="bundle.js"></script>
+
+<!--<script type='text/javascript' src="rtc/connector.js"></script>-->
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+{
+  "name": "noa-examples",
+  "version": "0.1.0",
+  "description": "Starter examples of game worlds using the noa voxel engine",
+  "scripts": {
+    "start": "cd src/game && webpack serve",
+    "test": "cd src/test && webpack serve",
+    "build1": "rm -f docs/test/*.js*; cd src/test && webpack --env prod",
+    "build2": "rm -f docs/hello-world/*.js*; cd src/hello-world && webpack --env prod",
+    "build": "npm run build1 && npm run build2",
+    "build3": "webpack"
+  },
+  "keywords": [
+    "noa-engine",
+    "noa",
+    "voxel",
+    "game",
+    "engine",
+    "example"
+  ],
+  "author": "Andy Hall",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fenomas/noa-examples.git"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^4.2.0",
+    "@babylonjs/inspector": "^4.2.0",
+    "browserify": "^17.0.0",
+    "canvas-screenshot": "^3.0.0",
+    "cors": "^2.8.5",
+    "file-saver": "^2.0.5",
+    "file-system": "^2.2.2",
+    "fs": "0.0.1-security",
+    "fs-webpack-plugin": "^3.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "i": "^0.3.7",
+    "lz-string": "^1.4.4",
+    "mesh-particle-system": "^0.11.0",
+    "murmur-numbers": "0.0.1",
+    "ndarray": "^1.0.19",
+    "noa-engine": "^0.30.0",
+    "npm": "^7.24.0",
+    "open-simplex-noise": "^2.5.0",
+    "process": "^0.11.10",
+    "simple-peer": "^9.11.0",
+    "socket.io": "^4.2.0",
+    "socket.io-client": "^4.2.0",
+    "voxel-crunch": "^0.2.1",
+    "worker-loader": "^3.0.8",
+    "ws": "^8.2.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
